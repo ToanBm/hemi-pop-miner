@@ -25,7 +25,8 @@ cat ~/popm-address.json
   "pubkey_hash": "m12345..."
 ```
 ### 3. Fund your PoP Miner Address:
-- `#faucet` channel on Discord! type: `/tbtc-faucet address: <pubkey_hash>`
+- Faucet tBTC: channel `#faucet` on Discord! type: `/tbtc-faucet address: <pubkey_hash>`
+- Faucet HemiETF: channel `#faucet` on Discord! type: `/faucet address: <ethereum_address>`
 ### 4.  Run the Miner:
 ```Bash
 screen -S hemi-pop
