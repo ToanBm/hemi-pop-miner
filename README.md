@@ -33,6 +33,8 @@ screen -S hemi-pop
 ```
 ```Bash
 export POPM_BTC_PRIVKEY=<private_key>
+```
+```Bash
 export POPM_STATIC_FEE=150
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 ```
