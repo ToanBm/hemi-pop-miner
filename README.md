@@ -2,9 +2,8 @@
 
 ### 1. Binaries:
 ```Bash
-wget https://github.com/hemilabs/heminetwork/releases/download/v0.3.13/heminetwork_v0.3.13_linux_amd64.tar.gz -O heminetwork_v0.3.13_linux_amd64.tar.gz
-tar -xzf heminetwork_v0.3.13_linux_amd64.tar.gz
-cd heminetwork_v0.3.13_linux_amd64
+wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.3/heminetwork_v0.4.3_linux_amd64.tar.gz
+tar xvf heminetwork_v0.4.3_linux_amd64.tar.gz && cd heminetwork_v0.4.3_linux_amd64
 ```
 ### 2. Generate Your Public Key:
 ```Bash
@@ -16,7 +15,7 @@ cd heminetwork_v0.3.13_linux_amd64
 ```Bash
 cat ~/popm-address.json
 ```
-- Save you wallet:
+### - Save you Info:
 ```Bash
   "ethereum_address": "0x123...",`
   "network": "testnet",`
@@ -31,11 +30,10 @@ cat ~/popm-address.json
 ```Bash
 screen -S hemi-pop
 ```
+### * Edit <private_key> 
 ```Bash
 export POPM_BTC_PRIVKEY=<private_key>
-```
-```Bash
-export POPM_STATIC_FEE=150
+export POPM_STATIC_FEE=500
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 ```
 ```Bash
