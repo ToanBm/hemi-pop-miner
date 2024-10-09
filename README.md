@@ -9,11 +9,11 @@ rm -rf heminetwork_v0.4.3_linux_amd64 && rm -rf heminetwork
 wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.4/heminetwork_v0.4.4_linux_amd64.tar.gz
 ```
 ```Bash
-tar xvf heminetwork_v0.4.4_linux_amd64.tar.gz && cd heminetwork_v0.4.4_linux_amd64
+tar xvf heminetwork_v0.4.4_linux_amd64.tar.gz && rm -rf heminetwork_v0.4.4_linux_amd64.tar.gz && cd heminetwork_v0.4.4_linux_amd64
 ```
-- To return screen
+- To creat screen
 ```Bash
-screen -r hemi-pop
+screen -S hemi-pop
 ```
 ### 3. Replace your private key with <PRIVATE_KEY>
 ```Bash
