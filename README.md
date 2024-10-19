@@ -1,4 +1,19 @@
 # CLI PoP Miner
+###  Stop your POP
+```
+sudo systemctl stop hemi.service
+```
+###  Edit your Systemd
+```
+nano /etc/systemd/system/hemi.service
+```
+###  Reload and start
+```
+sudo systemctl daemon-reload
+sudo systemctl enable hemi.service
+sudo systemctl start hemi.service
+```
+-----------------------------------------------------------------------------------
 ## Update
 ### 1. Remove old version
 ```Bash
