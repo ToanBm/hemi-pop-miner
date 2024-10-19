@@ -13,6 +13,25 @@ sudo systemctl daemon-reload
 sudo systemctl enable hemi.service
 sudo systemctl start hemi.service
 ```
+---------------------------------------------------------------------------
+## Installation with Systemd
+```bash
+[ -f "hemixyz.sh" ] && rm hemixyz.sh; wget -q https://raw.githubusercontent.com/zunxbt/pop-mining/main/hemixyz.sh && chmod +x hemixyz.sh && ./hemixyz.sh
+```
+
+- **Copy all these details and save it somewhere**
+```bash
+cat ~/popm-address.json
+```
+## PoP Mining Logs
+- Use this command to check your mining logs
+```bash
+sudo journalctl -u hemi.service -f -n 50
+```
+
+## Overall stats
+- Visit [this website](https://testnet.popstats.hemi.network/) and enter your PoP mining BTC address
+- The more PoP Txs the, better
 -----------------------------------------------------------------------------------
 ## Update
 ### 1. Remove old version
