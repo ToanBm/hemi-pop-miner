@@ -10,7 +10,8 @@ nano /etc/systemd/system/hemi.service
 ###  Reload and start
 ```
 sudo systemctl daemon-reload
-sudo systemctl enable hemi.service
+```
+```
 sudo systemctl start hemi.service
 ```
 ---------------------------------------------------------------------------
